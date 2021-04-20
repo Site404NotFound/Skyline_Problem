@@ -2,13 +2,6 @@
 Time Complexity:
 O(n log n)
 
-How to compile:
-go build skyline.go
-
-How to run:
-go build skyline.go
-./skyline
-
 Coding Problem:
 We want to compute the skyline of a city given buildings positions and heights.
 
