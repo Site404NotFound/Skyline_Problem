@@ -25,11 +25,13 @@ Modify the method computeSkyline() to contain your algorithm.
 - Building(6, 7, 3) (Shown as D below)
 
 Visual representation (Only for reference, no need to display)
+```
      B
      B   C C D
    A A   C C D
    A A   C C D
  0 1 2 3 4 5 6 7
+ ```
 
 ### Output:
 - SkylinePoint(1, 2)
