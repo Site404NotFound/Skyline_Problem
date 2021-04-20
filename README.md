@@ -27,8 +27,8 @@ Modify the method computeSkyline() to contain your algorithm.
 - Building(4, 6, 3) (Shown as C below)
 - Building(6, 7, 3) (Shown as D below)
 
-Visual representation (Only for reference, no need to display)
-- I displayed it anyway using a somewhat inelegant approach.
+### Visual Representation
+Only for reference, no need to display in LeetCode Solution.  I displayed it anyway using a somewhat inelegant approach.
 ```
      B
      B   C C D
