@@ -5,7 +5,7 @@ Solved the Skyline Interview Problem using Divide & Conquer method.
 https://leetcode.com/problems/the-skyline-problem/
 
 ## Time Complexity
-O(n log n)
+``O(n log n)``
 
 ## Coding Problem:
 We want to compute the skyline of a city given buildings positions and heights.
