@@ -43,3 +43,6 @@ Only for reference, no need to display in LeetCode Solution.  I displayed it any
 - SkylinePoint(3, 0)
 - SkylinePoint(4, 3)
 - SkylinePoint(7, 0)
+
+## Example Output
+![Results Example](/example_images/results.png)
