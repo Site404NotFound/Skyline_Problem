@@ -67,6 +67,7 @@ type SkylinePoint struct {
 }
 
 func main() {
+	// List of different skylines to test.
 	buildings := [][]Building{
 		{
 			{left: 1, right: 3, height: 2},
@@ -89,6 +90,7 @@ func main() {
 			{left: 8, right: 14, height: 6},
 		},
 	}
+	// List of expected results for the skylines above.
 	expectedSkylinePoints := [][]SkylinePoint{
 		{
 			{x: 1, height: 2},
@@ -115,6 +117,7 @@ func main() {
 			{x: 14, height: 0},
 		},
 	}
+	// Loop through each skyline test and compute the critical points.
 	for i, buildingsList := range buildings {
 		skylinePointList := ComputeSkyline(buildingsList)
 		DisplayResults(skylinePointList, expectedSkylinePoints[i])
